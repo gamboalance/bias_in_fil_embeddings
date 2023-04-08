@@ -1,0 +1,5 @@
+# Evaluating Gender Bias in Pre-Trained Filipino FastText Embeddings
+
+The **Filipino FastText Analysis** notebook contains the scripts used to arrive at the results of this paper: Gamboa, L.C.L. and Estuar, M.R.J.E. (2023, forthcoming). Evaluating Gender Bias in Pre-Trained Filipino FastText Embeddings. Proceedings of the 1st International Conference on IT Innovations and Knowledge Discovery. Manama, Kingdom of Bahrain. The notebook analyzes the Filipino FastText word embedding [model](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tl.300.bin.gz) publicly released [here](https://fasttext.cc/docs/en/crawl-vectors.html) by [Grave and colleagues](https://arxiv.org/abs/1802.06893).
+
+The **fil_fasttext_weat** spreadsheet contains the gender association scores of the embedding training corpus's most frequently occurring words and the  manually generated annotations and tags (e.g., part-of-speech tags) of the embedding's most implicitly gendered words. This spreadsheet is used in the notebook's "Enumerated Implicitly Biased Words" and "Visualize Implicit Bias Using PCA" sections.
